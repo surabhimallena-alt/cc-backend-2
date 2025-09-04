@@ -13,11 +13,14 @@ def fetch_pokemon_data(name):
     poke_data = poke_response.json()
     species_data = species_response.json()
 
+    types_list = [poke_data['types'][i]['type']['name'] for i in range(len(poke_data['types']))]
+    abilities_list = [poke_data['abilities'][i]['ability']['name'] for i in range(len(poke_data['abilities']))]
+
     return {
         'name': poke_data['name'],
         'id': poke_data['id'],
-        'abilities': poke_data['abilities'],
-        'type': poke_data['types'],
+        'abilities': abilities_list,
+        'type': types_list,
         'is_legendary': species_data['is_legendary'],
         'is_mythical': species_data['is_mythical']
     }

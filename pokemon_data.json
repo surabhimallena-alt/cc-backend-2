@@ -2,38 +2,12 @@
     "amoonguss": {
         "id": 591,
         "abilities": [
-            {
-                "ability": {
-                    "name": "effect-spore",
-                    "url": "https://pokeapi.co/api/v2/ability/27/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            },
-            {
-                "ability": {
-                    "name": "regenerator",
-                    "url": "https://pokeapi.co/api/v2/ability/144/"
-                },
-                "is_hidden": true,
-                "slot": 3
-            }
+            "effect-spore",
+            "regenerator"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "grass",
-                    "url": "https://pokeapi.co/api/v2/type/12/"
-                }
-            },
-            {
-                "slot": 2,
-                "type": {
-                    "name": "poison",
-                    "url": "https://pokeapi.co/api/v2/type/4/"
-                }
-            }
+            "grass",
+            "poison"
         ],
         "is_legendary": false,
         "is_mythical": false
@@ -41,38 +15,12 @@
     "gyarados": {
         "id": 130,
         "abilities": [
-            {
-                "ability": {
-                    "name": "intimidate",
-                    "url": "https://pokeapi.co/api/v2/ability/22/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            },
-            {
-                "ability": {
-                    "name": "moxie",
-                    "url": "https://pokeapi.co/api/v2/ability/153/"
-                },
-                "is_hidden": true,
-                "slot": 3
-            }
+            "intimidate",
+            "moxie"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "water",
-                    "url": "https://pokeapi.co/api/v2/type/11/"
-                }
-            },
-            {
-                "slot": 2,
-                "type": {
-                    "name": "flying",
-                    "url": "https://pokeapi.co/api/v2/type/3/"
-                }
-            }
+            "water",
+            "flying"
         ],
         "is_legendary": false,
         "is_mythical": false
@@ -80,39 +28,12 @@
     "snorlax": {
         "id": 143,
         "abilities": [
-            {
-                "ability": {
-                    "name": "immunity",
-                    "url": "https://pokeapi.co/api/v2/ability/17/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            },
-            {
-                "ability": {
-                    "name": "thick-fat",
-                    "url": "https://pokeapi.co/api/v2/ability/47/"
-                },
-                "is_hidden": false,
-                "slot": 2
-            },
-            {
-                "ability": {
-                    "name": "gluttony",
-                    "url": "https://pokeapi.co/api/v2/ability/82/"
-                },
-                "is_hidden": true,
-                "slot": 3
-            }
+            "immunity",
+            "thick-fat",
+            "gluttony"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "normal",
-                    "url": "https://pokeapi.co/api/v2/type/1/"
-                }
-            }
+            "normal"
         ],
         "is_legendary": false,
         "is_mythical": false
@@ -120,38 +41,12 @@
     "volcarona": {
         "id": 637,
         "abilities": [
-            {
-                "ability": {
-                    "name": "flame-body",
-                    "url": "https://pokeapi.co/api/v2/ability/49/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            },
-            {
-                "ability": {
-                    "name": "swarm",
-                    "url": "https://pokeapi.co/api/v2/ability/68/"
-                },
-                "is_hidden": true,
-                "slot": 3
-            }
+            "flame-body",
+            "swarm"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "bug",
-                    "url": "https://pokeapi.co/api/v2/type/7/"
-                }
-            },
-            {
-                "slot": 2,
-                "type": {
-                    "name": "fire",
-                    "url": "https://pokeapi.co/api/v2/type/10/"
-                }
-            }
+            "bug",
+            "fire"
         ],
         "is_legendary": false,
         "is_mythical": false
@@ -159,46 +54,13 @@
     "wooper": {
         "id": 194,
         "abilities": [
-            {
-                "ability": {
-                    "name": "damp",
-                    "url": "https://pokeapi.co/api/v2/ability/6/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            },
-            {
-                "ability": {
-                    "name": "water-absorb",
-                    "url": "https://pokeapi.co/api/v2/ability/11/"
-                },
-                "is_hidden": false,
-                "slot": 2
-            },
-            {
-                "ability": {
-                    "name": "unaware",
-                    "url": "https://pokeapi.co/api/v2/ability/109/"
-                },
-                "is_hidden": true,
-                "slot": 3
-            }
+            "damp",
+            "water-absorb",
+            "unaware"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "water",
-                    "url": "https://pokeapi.co/api/v2/type/11/"
-                }
-            },
-            {
-                "slot": 2,
-                "type": {
-                    "name": "ground",
-                    "url": "https://pokeapi.co/api/v2/type/5/"
-                }
-            }
+            "water",
+            "ground"
         ],
         "is_legendary": false,
         "is_mythical": false
@@ -206,38 +68,12 @@
     "greninja": {
         "id": 658,
         "abilities": [
-            {
-                "ability": {
-                    "name": "torrent",
-                    "url": "https://pokeapi.co/api/v2/ability/67/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            },
-            {
-                "ability": {
-                    "name": "protean",
-                    "url": "https://pokeapi.co/api/v2/ability/168/"
-                },
-                "is_hidden": true,
-                "slot": 3
-            }
+            "torrent",
+            "protean"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "water",
-                    "url": "https://pokeapi.co/api/v2/type/11/"
-                }
-            },
-            {
-                "slot": 2,
-                "type": {
-                    "name": "dark",
-                    "url": "https://pokeapi.co/api/v2/type/17/"
-                }
-            }
+            "water",
+            "dark"
         ],
         "is_legendary": false,
         "is_mythical": false
@@ -245,31 +81,11 @@
     "phanpy": {
         "id": 231,
         "abilities": [
-            {
-                "ability": {
-                    "name": "pickup",
-                    "url": "https://pokeapi.co/api/v2/ability/53/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            },
-            {
-                "ability": {
-                    "name": "sand-veil",
-                    "url": "https://pokeapi.co/api/v2/ability/8/"
-                },
-                "is_hidden": true,
-                "slot": 3
-            }
+            "pickup",
+            "sand-veil"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "ground",
-                    "url": "https://pokeapi.co/api/v2/type/5/"
-                }
-            }
+            "ground"
         ],
         "is_legendary": false,
         "is_mythical": false
@@ -277,38 +93,12 @@
     "charizard": {
         "id": 6,
         "abilities": [
-            {
-                "ability": {
-                    "name": "blaze",
-                    "url": "https://pokeapi.co/api/v2/ability/66/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            },
-            {
-                "ability": {
-                    "name": "solar-power",
-                    "url": "https://pokeapi.co/api/v2/ability/94/"
-                },
-                "is_hidden": true,
-                "slot": 3
-            }
+            "blaze",
+            "solar-power"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "fire",
-                    "url": "https://pokeapi.co/api/v2/type/10/"
-                }
-            },
-            {
-                "slot": 2,
-                "type": {
-                    "name": "flying",
-                    "url": "https://pokeapi.co/api/v2/type/3/"
-                }
-            }
+            "fire",
+            "flying"
         ],
         "is_legendary": false,
         "is_mythical": false
@@ -316,31 +106,11 @@
     "sceptile": {
         "id": 254,
         "abilities": [
-            {
-                "ability": {
-                    "name": "overgrow",
-                    "url": "https://pokeapi.co/api/v2/ability/65/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            },
-            {
-                "ability": {
-                    "name": "unburden",
-                    "url": "https://pokeapi.co/api/v2/ability/84/"
-                },
-                "is_hidden": true,
-                "slot": 3
-            }
+            "overgrow",
+            "unburden"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "grass",
-                    "url": "https://pokeapi.co/api/v2/type/12/"
-                }
-            }
+            "grass"
         ],
         "is_legendary": false,
         "is_mythical": false
@@ -348,30 +118,11 @@
     "aegislash-shield": {
         "id": 681,
         "abilities": [
-            {
-                "ability": {
-                    "name": "stance-change",
-                    "url": "https://pokeapi.co/api/v2/ability/176/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            }
+            "stance-change"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "steel",
-                    "url": "https://pokeapi.co/api/v2/type/9/"
-                }
-            },
-            {
-                "slot": 2,
-                "type": {
-                    "name": "ghost",
-                    "url": "https://pokeapi.co/api/v2/type/8/"
-                }
-            }
+            "steel",
+            "ghost"
         ],
         "is_legendary": false,
         "is_mythical": false
@@ -379,38 +130,12 @@
     "blaziken": {
         "id": 257,
         "abilities": [
-            {
-                "ability": {
-                    "name": "blaze",
-                    "url": "https://pokeapi.co/api/v2/ability/66/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            },
-            {
-                "ability": {
-                    "name": "speed-boost",
-                    "url": "https://pokeapi.co/api/v2/ability/3/"
-                },
-                "is_hidden": true,
-                "slot": 3
-            }
+            "blaze",
+            "speed-boost"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "fire",
-                    "url": "https://pokeapi.co/api/v2/type/10/"
-                }
-            },
-            {
-                "slot": 2,
-                "type": {
-                    "name": "fighting",
-                    "url": "https://pokeapi.co/api/v2/type/2/"
-                }
-            }
+            "fire",
+            "fighting"
         ],
         "is_legendary": false,
         "is_mythical": false
@@ -418,31 +143,11 @@
     "mudkip": {
         "id": 258,
         "abilities": [
-            {
-                "ability": {
-                    "name": "torrent",
-                    "url": "https://pokeapi.co/api/v2/ability/67/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            },
-            {
-                "ability": {
-                    "name": "damp",
-                    "url": "https://pokeapi.co/api/v2/ability/6/"
-                },
-                "is_hidden": true,
-                "slot": 3
-            }
+            "torrent",
+            "damp"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "water",
-                    "url": "https://pokeapi.co/api/v2/type/11/"
-                }
-            }
+            "water"
         ],
         "is_legendary": false,
         "is_mythical": false
@@ -450,38 +155,12 @@
     "rowlet": {
         "id": 722,
         "abilities": [
-            {
-                "ability": {
-                    "name": "overgrow",
-                    "url": "https://pokeapi.co/api/v2/ability/65/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            },
-            {
-                "ability": {
-                    "name": "long-reach",
-                    "url": "https://pokeapi.co/api/v2/ability/203/"
-                },
-                "is_hidden": true,
-                "slot": 3
-            }
+            "overgrow",
+            "long-reach"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "grass",
-                    "url": "https://pokeapi.co/api/v2/type/12/"
-                }
-            },
-            {
-                "slot": 2,
-                "type": {
-                    "name": "flying",
-                    "url": "https://pokeapi.co/api/v2/type/3/"
-                }
-            }
+            "grass",
+            "flying"
         ],
         "is_legendary": false,
         "is_mythical": false
@@ -489,30 +168,11 @@
     "shedinja": {
         "id": 292,
         "abilities": [
-            {
-                "ability": {
-                    "name": "wonder-guard",
-                    "url": "https://pokeapi.co/api/v2/ability/25/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            }
+            "wonder-guard"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "bug",
-                    "url": "https://pokeapi.co/api/v2/type/7/"
-                }
-            },
-            {
-                "slot": 2,
-                "type": {
-                    "name": "ghost",
-                    "url": "https://pokeapi.co/api/v2/type/8/"
-                }
-            }
+            "bug",
+            "ghost"
         ],
         "is_legendary": false,
         "is_mythical": false
@@ -520,31 +180,11 @@
     "wynaut": {
         "id": 360,
         "abilities": [
-            {
-                "ability": {
-                    "name": "shadow-tag",
-                    "url": "https://pokeapi.co/api/v2/ability/23/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            },
-            {
-                "ability": {
-                    "name": "telepathy",
-                    "url": "https://pokeapi.co/api/v2/ability/140/"
-                },
-                "is_hidden": true,
-                "slot": 3
-            }
+            "shadow-tag",
+            "telepathy"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "psychic",
-                    "url": "https://pokeapi.co/api/v2/type/14/"
-                }
-            }
+            "psychic"
         ],
         "is_legendary": false,
         "is_mythical": false
@@ -552,38 +192,12 @@
     "incineroar": {
         "id": 727,
         "abilities": [
-            {
-                "ability": {
-                    "name": "blaze",
-                    "url": "https://pokeapi.co/api/v2/ability/66/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            },
-            {
-                "ability": {
-                    "name": "intimidate",
-                    "url": "https://pokeapi.co/api/v2/ability/22/"
-                },
-                "is_hidden": true,
-                "slot": 3
-            }
+            "blaze",
+            "intimidate"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "fire",
-                    "url": "https://pokeapi.co/api/v2/type/10/"
-                }
-            },
-            {
-                "slot": 2,
-                "type": {
-                    "name": "dark",
-                    "url": "https://pokeapi.co/api/v2/type/17/"
-                }
-            }
+            "fire",
+            "dark"
         ],
         "is_legendary": false,
         "is_mythical": false
@@ -591,46 +205,13 @@
     "spheal": {
         "id": 363,
         "abilities": [
-            {
-                "ability": {
-                    "name": "thick-fat",
-                    "url": "https://pokeapi.co/api/v2/ability/47/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            },
-            {
-                "ability": {
-                    "name": "ice-body",
-                    "url": "https://pokeapi.co/api/v2/ability/115/"
-                },
-                "is_hidden": false,
-                "slot": 2
-            },
-            {
-                "ability": {
-                    "name": "oblivious",
-                    "url": "https://pokeapi.co/api/v2/ability/12/"
-                },
-                "is_hidden": true,
-                "slot": 3
-            }
+            "thick-fat",
+            "ice-body",
+            "oblivious"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "ice",
-                    "url": "https://pokeapi.co/api/v2/type/15/"
-                }
-            },
-            {
-                "slot": 2,
-                "type": {
-                    "name": "water",
-                    "url": "https://pokeapi.co/api/v2/type/11/"
-                }
-            }
+            "ice",
+            "water"
         ],
         "is_legendary": false,
         "is_mythical": false
@@ -638,30 +219,11 @@
     "buzzwole": {
         "id": 794,
         "abilities": [
-            {
-                "ability": {
-                    "name": "beast-boost",
-                    "url": "https://pokeapi.co/api/v2/ability/224/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            }
+            "beast-boost"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "bug",
-                    "url": "https://pokeapi.co/api/v2/type/7/"
-                }
-            },
-            {
-                "slot": 2,
-                "type": {
-                    "name": "fighting",
-                    "url": "https://pokeapi.co/api/v2/type/2/"
-                }
-            }
+            "bug",
+            "fighting"
         ],
         "is_legendary": false,
         "is_mythical": false
@@ -669,38 +231,12 @@
     "salamence": {
         "id": 373,
         "abilities": [
-            {
-                "ability": {
-                    "name": "intimidate",
-                    "url": "https://pokeapi.co/api/v2/ability/22/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            },
-            {
-                "ability": {
-                    "name": "moxie",
-                    "url": "https://pokeapi.co/api/v2/ability/153/"
-                },
-                "is_hidden": true,
-                "slot": 3
-            }
+            "intimidate",
+            "moxie"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "dragon",
-                    "url": "https://pokeapi.co/api/v2/type/16/"
-                }
-            },
-            {
-                "slot": 2,
-                "type": {
-                    "name": "flying",
-                    "url": "https://pokeapi.co/api/v2/type/3/"
-                }
-            }
+            "dragon",
+            "flying"
         ],
         "is_legendary": false,
         "is_mythical": false
@@ -708,30 +244,11 @@
     "mimikyu-disguised": {
         "id": 778,
         "abilities": [
-            {
-                "ability": {
-                    "name": "disguise",
-                    "url": "https://pokeapi.co/api/v2/ability/209/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            }
+            "disguise"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "ghost",
-                    "url": "https://pokeapi.co/api/v2/type/8/"
-                }
-            },
-            {
-                "slot": 2,
-                "type": {
-                    "name": "fairy",
-                    "url": "https://pokeapi.co/api/v2/type/18/"
-                }
-            }
+            "ghost",
+            "fairy"
         ],
         "is_legendary": false,
         "is_mythical": false
@@ -739,38 +256,12 @@
     "metagross": {
         "id": 376,
         "abilities": [
-            {
-                "ability": {
-                    "name": "clear-body",
-                    "url": "https://pokeapi.co/api/v2/ability/29/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            },
-            {
-                "ability": {
-                    "name": "light-metal",
-                    "url": "https://pokeapi.co/api/v2/ability/135/"
-                },
-                "is_hidden": true,
-                "slot": 3
-            }
+            "clear-body",
+            "light-metal"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "steel",
-                    "url": "https://pokeapi.co/api/v2/type/9/"
-                }
-            },
-            {
-                "slot": 2,
-                "type": {
-                    "name": "psychic",
-                    "url": "https://pokeapi.co/api/v2/type/14/"
-                }
-            }
+            "steel",
+            "psychic"
         ],
         "is_legendary": false,
         "is_mythical": false
@@ -778,30 +269,11 @@
     "rayquaza": {
         "id": 384,
         "abilities": [
-            {
-                "ability": {
-                    "name": "air-lock",
-                    "url": "https://pokeapi.co/api/v2/ability/76/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            }
+            "air-lock"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "dragon",
-                    "url": "https://pokeapi.co/api/v2/type/16/"
-                }
-            },
-            {
-                "slot": 2,
-                "type": {
-                    "name": "flying",
-                    "url": "https://pokeapi.co/api/v2/type/3/"
-                }
-            }
+            "dragon",
+            "flying"
         ],
         "is_legendary": true,
         "is_mythical": false
@@ -809,31 +281,11 @@
     "falinks": {
         "id": 870,
         "abilities": [
-            {
-                "ability": {
-                    "name": "battle-armor",
-                    "url": "https://pokeapi.co/api/v2/ability/4/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            },
-            {
-                "ability": {
-                    "name": "defiant",
-                    "url": "https://pokeapi.co/api/v2/ability/128/"
-                },
-                "is_hidden": true,
-                "slot": 3
-            }
+            "battle-armor",
+            "defiant"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "fighting",
-                    "url": "https://pokeapi.co/api/v2/type/2/"
-                }
-            }
+            "fighting"
         ],
         "is_legendary": false,
         "is_mythical": false
@@ -841,38 +293,12 @@
     "infernape": {
         "id": 392,
         "abilities": [
-            {
-                "ability": {
-                    "name": "blaze",
-                    "url": "https://pokeapi.co/api/v2/ability/66/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            },
-            {
-                "ability": {
-                    "name": "iron-fist",
-                    "url": "https://pokeapi.co/api/v2/ability/89/"
-                },
-                "is_hidden": true,
-                "slot": 3
-            }
+            "blaze",
+            "iron-fist"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "fire",
-                    "url": "https://pokeapi.co/api/v2/type/10/"
-                }
-            },
-            {
-                "slot": 2,
-                "type": {
-                    "name": "fighting",
-                    "url": "https://pokeapi.co/api/v2/type/2/"
-                }
-            }
+            "fire",
+            "fighting"
         ],
         "is_legendary": false,
         "is_mythical": false
@@ -880,31 +306,11 @@
     "piplup": {
         "id": 393,
         "abilities": [
-            {
-                "ability": {
-                    "name": "torrent",
-                    "url": "https://pokeapi.co/api/v2/ability/67/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            },
-            {
-                "ability": {
-                    "name": "competitive",
-                    "url": "https://pokeapi.co/api/v2/ability/172/"
-                },
-                "is_hidden": true,
-                "slot": 3
-            }
+            "torrent",
+            "competitive"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "water",
-                    "url": "https://pokeapi.co/api/v2/type/11/"
-                }
-            }
+            "water"
         ],
         "is_legendary": false,
         "is_mythical": false
@@ -912,46 +318,13 @@
     "dragapult": {
         "id": 887,
         "abilities": [
-            {
-                "ability": {
-                    "name": "clear-body",
-                    "url": "https://pokeapi.co/api/v2/ability/29/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            },
-            {
-                "ability": {
-                    "name": "infiltrator",
-                    "url": "https://pokeapi.co/api/v2/ability/151/"
-                },
-                "is_hidden": false,
-                "slot": 2
-            },
-            {
-                "ability": {
-                    "name": "cursed-body",
-                    "url": "https://pokeapi.co/api/v2/ability/130/"
-                },
-                "is_hidden": true,
-                "slot": 3
-            }
+            "clear-body",
+            "infiltrator",
+            "cursed-body"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "dragon",
-                    "url": "https://pokeapi.co/api/v2/type/16/"
-                }
-            },
-            {
-                "slot": 2,
-                "type": {
-                    "name": "ghost",
-                    "url": "https://pokeapi.co/api/v2/type/8/"
-                }
-            }
+            "dragon",
+            "ghost"
         ],
         "is_legendary": false,
         "is_mythical": false
@@ -959,23 +332,10 @@
     "darkrai": {
         "id": 491,
         "abilities": [
-            {
-                "ability": {
-                    "name": "bad-dreams",
-                    "url": "https://pokeapi.co/api/v2/ability/123/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            }
+            "bad-dreams"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "dark",
-                    "url": "https://pokeapi.co/api/v2/type/17/"
-                }
-            }
+            "dark"
         ],
         "is_legendary": false,
         "is_mythical": true
@@ -983,30 +343,11 @@
     "gholdengo": {
         "id": 1000,
         "abilities": [
-            {
-                "ability": {
-                    "name": "good-as-gold",
-                    "url": "https://pokeapi.co/api/v2/ability/283/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            }
+            "good-as-gold"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "steel",
-                    "url": "https://pokeapi.co/api/v2/type/9/"
-                }
-            },
-            {
-                "slot": 2,
-                "type": {
-                    "name": "ghost",
-                    "url": "https://pokeapi.co/api/v2/type/8/"
-                }
-            }
+            "steel",
+            "ghost"
         ],
         "is_legendary": false,
         "is_mythical": false
@@ -1014,31 +355,11 @@
     "oshawott": {
         "id": 501,
         "abilities": [
-            {
-                "ability": {
-                    "name": "torrent",
-                    "url": "https://pokeapi.co/api/v2/ability/67/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            },
-            {
-                "ability": {
-                    "name": "shell-armor",
-                    "url": "https://pokeapi.co/api/v2/ability/75/"
-                },
-                "is_hidden": true,
-                "slot": 3
-            }
+            "torrent",
+            "shell-armor"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "water",
-                    "url": "https://pokeapi.co/api/v2/type/11/"
-                }
-            }
+            "water"
         ],
         "is_legendary": false,
         "is_mythical": false
@@ -1046,30 +367,11 @@
     "walking-wake": {
         "id": 1009,
         "abilities": [
-            {
-                "ability": {
-                    "name": "protosynthesis",
-                    "url": "https://pokeapi.co/api/v2/ability/281/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            }
+            "protosynthesis"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "water",
-                    "url": "https://pokeapi.co/api/v2/type/11/"
-                }
-            },
-            {
-                "slot": 2,
-                "type": {
-                    "name": "dragon",
-                    "url": "https://pokeapi.co/api/v2/type/16/"
-                }
-            }
+            "water",
+            "dragon"
         ],
         "is_legendary": false,
         "is_mythical": false
@@ -1077,39 +379,12 @@
     "milotic": {
         "id": 350,
         "abilities": [
-            {
-                "ability": {
-                    "name": "marvel-scale",
-                    "url": "https://pokeapi.co/api/v2/ability/63/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            },
-            {
-                "ability": {
-                    "name": "competitive",
-                    "url": "https://pokeapi.co/api/v2/ability/172/"
-                },
-                "is_hidden": false,
-                "slot": 2
-            },
-            {
-                "ability": {
-                    "name": "cute-charm",
-                    "url": "https://pokeapi.co/api/v2/ability/56/"
-                },
-                "is_hidden": true,
-                "slot": 3
-            }
+            "marvel-scale",
+            "competitive",
+            "cute-charm"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "water",
-                    "url": "https://pokeapi.co/api/v2/type/11/"
-                }
-            }
+            "water"
         ],
         "is_legendary": false,
         "is_mythical": false
@@ -1117,38 +392,12 @@
     "bulbasaur": {
         "id": 1,
         "abilities": [
-            {
-                "ability": {
-                    "name": "overgrow",
-                    "url": "https://pokeapi.co/api/v2/ability/65/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            },
-            {
-                "ability": {
-                    "name": "chlorophyll",
-                    "url": "https://pokeapi.co/api/v2/ability/34/"
-                },
-                "is_hidden": true,
-                "slot": 3
-            }
+            "overgrow",
+            "chlorophyll"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "grass",
-                    "url": "https://pokeapi.co/api/v2/type/12/"
-                }
-            },
-            {
-                "slot": 2,
-                "type": {
-                    "name": "poison",
-                    "url": "https://pokeapi.co/api/v2/type/4/"
-                }
-            }
+            "grass",
+            "poison"
         ],
         "is_legendary": false,
         "is_mythical": false
@@ -1156,30 +405,11 @@
     "gengar": {
         "id": 94,
         "abilities": [
-            {
-                "ability": {
-                    "name": "cursed-body",
-                    "url": "https://pokeapi.co/api/v2/ability/130/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            }
+            "cursed-body"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "ghost",
-                    "url": "https://pokeapi.co/api/v2/type/8/"
-                }
-            },
-            {
-                "slot": 2,
-                "type": {
-                    "name": "poison",
-                    "url": "https://pokeapi.co/api/v2/type/4/"
-                }
-            }
+            "ghost",
+            "poison"
         ],
         "is_legendary": false,
         "is_mythical": false
@@ -1187,31 +417,11 @@
     "umbreon": {
         "id": 197,
         "abilities": [
-            {
-                "ability": {
-                    "name": "synchronize",
-                    "url": "https://pokeapi.co/api/v2/ability/28/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            },
-            {
-                "ability": {
-                    "name": "inner-focus",
-                    "url": "https://pokeapi.co/api/v2/ability/39/"
-                },
-                "is_hidden": true,
-                "slot": 3
-            }
+            "synchronize",
+            "inner-focus"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "dark",
-                    "url": "https://pokeapi.co/api/v2/type/17/"
-                }
-            }
+            "dark"
         ],
         "is_legendary": false,
         "is_mythical": false
@@ -1219,38 +429,12 @@
     "garchomp": {
         "id": 445,
         "abilities": [
-            {
-                "ability": {
-                    "name": "sand-veil",
-                    "url": "https://pokeapi.co/api/v2/ability/8/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            },
-            {
-                "ability": {
-                    "name": "rough-skin",
-                    "url": "https://pokeapi.co/api/v2/ability/24/"
-                },
-                "is_hidden": true,
-                "slot": 3
-            }
+            "sand-veil",
+            "rough-skin"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "dragon",
-                    "url": "https://pokeapi.co/api/v2/type/16/"
-                }
-            },
-            {
-                "slot": 2,
-                "type": {
-                    "name": "ground",
-                    "url": "https://pokeapi.co/api/v2/type/5/"
-                }
-            }
+            "dragon",
+            "ground"
         ],
         "is_legendary": false,
         "is_mythical": false
@@ -1258,46 +442,13 @@
     "chandelure": {
         "id": 609,
         "abilities": [
-            {
-                "ability": {
-                    "name": "flash-fire",
-                    "url": "https://pokeapi.co/api/v2/ability/18/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            },
-            {
-                "ability": {
-                    "name": "flame-body",
-                    "url": "https://pokeapi.co/api/v2/ability/49/"
-                },
-                "is_hidden": false,
-                "slot": 2
-            },
-            {
-                "ability": {
-                    "name": "infiltrator",
-                    "url": "https://pokeapi.co/api/v2/ability/151/"
-                },
-                "is_hidden": true,
-                "slot": 3
-            }
+            "flash-fire",
+            "flame-body",
+            "infiltrator"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "ghost",
-                    "url": "https://pokeapi.co/api/v2/type/8/"
-                }
-            },
-            {
-                "slot": 2,
-                "type": {
-                    "name": "fire",
-                    "url": "https://pokeapi.co/api/v2/type/10/"
-                }
-            }
+            "ghost",
+            "fire"
         ],
         "is_legendary": false,
         "is_mythical": false
@@ -1305,46 +456,13 @@
     "lucario": {
         "id": 448,
         "abilities": [
-            {
-                "ability": {
-                    "name": "steadfast",
-                    "url": "https://pokeapi.co/api/v2/ability/80/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            },
-            {
-                "ability": {
-                    "name": "inner-focus",
-                    "url": "https://pokeapi.co/api/v2/ability/39/"
-                },
-                "is_hidden": false,
-                "slot": 2
-            },
-            {
-                "ability": {
-                    "name": "justified",
-                    "url": "https://pokeapi.co/api/v2/ability/154/"
-                },
-                "is_hidden": true,
-                "slot": 3
-            }
+            "steadfast",
+            "inner-focus",
+            "justified"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "fighting",
-                    "url": "https://pokeapi.co/api/v2/type/2/"
-                }
-            },
-            {
-                "slot": 2,
-                "type": {
-                    "name": "steel",
-                    "url": "https://pokeapi.co/api/v2/type/9/"
-                }
-            }
+            "fighting",
+            "steel"
         ],
         "is_legendary": false,
         "is_mythical": false
@@ -1352,30 +470,11 @@
     "flygon": {
         "id": 330,
         "abilities": [
-            {
-                "ability": {
-                    "name": "levitate",
-                    "url": "https://pokeapi.co/api/v2/ability/26/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            }
+            "levitate"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "ground",
-                    "url": "https://pokeapi.co/api/v2/type/5/"
-                }
-            },
-            {
-                "slot": 2,
-                "type": {
-                    "name": "dragon",
-                    "url": "https://pokeapi.co/api/v2/type/16/"
-                }
-            }
+            "ground",
+            "dragon"
         ],
         "is_legendary": false,
         "is_mythical": false
@@ -1383,46 +482,13 @@
     "scizor": {
         "id": 212,
         "abilities": [
-            {
-                "ability": {
-                    "name": "swarm",
-                    "url": "https://pokeapi.co/api/v2/ability/68/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            },
-            {
-                "ability": {
-                    "name": "technician",
-                    "url": "https://pokeapi.co/api/v2/ability/101/"
-                },
-                "is_hidden": false,
-                "slot": 2
-            },
-            {
-                "ability": {
-                    "name": "light-metal",
-                    "url": "https://pokeapi.co/api/v2/ability/135/"
-                },
-                "is_hidden": true,
-                "slot": 3
-            }
+            "swarm",
+            "technician",
+            "light-metal"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "bug",
-                    "url": "https://pokeapi.co/api/v2/type/7/"
-                }
-            },
-            {
-                "slot": 2,
-                "type": {
-                    "name": "steel",
-                    "url": "https://pokeapi.co/api/v2/type/9/"
-                }
-            }
+            "bug",
+            "steel"
         ],
         "is_legendary": false,
         "is_mythical": false
@@ -1430,31 +496,11 @@
     "squirtle": {
         "id": 7,
         "abilities": [
-            {
-                "ability": {
-                    "name": "torrent",
-                    "url": "https://pokeapi.co/api/v2/ability/67/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            },
-            {
-                "ability": {
-                    "name": "rain-dish",
-                    "url": "https://pokeapi.co/api/v2/ability/44/"
-                },
-                "is_hidden": true,
-                "slot": 3
-            }
+            "torrent",
+            "rain-dish"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "water",
-                    "url": "https://pokeapi.co/api/v2/type/11/"
-                }
-            }
+            "water"
         ],
         "is_legendary": false,
         "is_mythical": false
@@ -1462,38 +508,12 @@
     "dragonite": {
         "id": 149,
         "abilities": [
-            {
-                "ability": {
-                    "name": "inner-focus",
-                    "url": "https://pokeapi.co/api/v2/ability/39/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            },
-            {
-                "ability": {
-                    "name": "multiscale",
-                    "url": "https://pokeapi.co/api/v2/ability/136/"
-                },
-                "is_hidden": true,
-                "slot": 3
-            }
+            "inner-focus",
+            "multiscale"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "dragon",
-                    "url": "https://pokeapi.co/api/v2/type/16/"
-                }
-            },
-            {
-                "slot": 2,
-                "type": {
-                    "name": "flying",
-                    "url": "https://pokeapi.co/api/v2/type/3/"
-                }
-            }
+            "dragon",
+            "flying"
         ],
         "is_legendary": false,
         "is_mythical": false
@@ -1501,39 +521,12 @@
     "luxray": {
         "id": 405,
         "abilities": [
-            {
-                "ability": {
-                    "name": "rivalry",
-                    "url": "https://pokeapi.co/api/v2/ability/79/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            },
-            {
-                "ability": {
-                    "name": "intimidate",
-                    "url": "https://pokeapi.co/api/v2/ability/22/"
-                },
-                "is_hidden": false,
-                "slot": 2
-            },
-            {
-                "ability": {
-                    "name": "guts",
-                    "url": "https://pokeapi.co/api/v2/ability/62/"
-                },
-                "is_hidden": true,
-                "slot": 3
-            }
+            "rivalry",
+            "intimidate",
+            "guts"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "electric",
-                    "url": "https://pokeapi.co/api/v2/type/13/"
-                }
-            }
+            "electric"
         ],
         "is_legendary": false,
         "is_mythical": false
@@ -1541,38 +534,12 @@
     "lugia": {
         "id": 249,
         "abilities": [
-            {
-                "ability": {
-                    "name": "pressure",
-                    "url": "https://pokeapi.co/api/v2/ability/46/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            },
-            {
-                "ability": {
-                    "name": "multiscale",
-                    "url": "https://pokeapi.co/api/v2/ability/136/"
-                },
-                "is_hidden": true,
-                "slot": 3
-            }
+            "pressure",
+            "multiscale"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "psychic",
-                    "url": "https://pokeapi.co/api/v2/type/14/"
-                }
-            },
-            {
-                "slot": 2,
-                "type": {
-                    "name": "flying",
-                    "url": "https://pokeapi.co/api/v2/type/3/"
-                }
-            }
+            "psychic",
+            "flying"
         ],
         "is_legendary": true,
         "is_mythical": false
@@ -1580,46 +547,13 @@
     "noivern": {
         "id": 715,
         "abilities": [
-            {
-                "ability": {
-                    "name": "frisk",
-                    "url": "https://pokeapi.co/api/v2/ability/119/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            },
-            {
-                "ability": {
-                    "name": "infiltrator",
-                    "url": "https://pokeapi.co/api/v2/ability/151/"
-                },
-                "is_hidden": false,
-                "slot": 2
-            },
-            {
-                "ability": {
-                    "name": "telepathy",
-                    "url": "https://pokeapi.co/api/v2/ability/140/"
-                },
-                "is_hidden": true,
-                "slot": 3
-            }
+            "frisk",
+            "infiltrator",
+            "telepathy"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "flying",
-                    "url": "https://pokeapi.co/api/v2/type/3/"
-                }
-            },
-            {
-                "slot": 2,
-                "type": {
-                    "name": "dragon",
-                    "url": "https://pokeapi.co/api/v2/type/16/"
-                }
-            }
+            "flying",
+            "dragon"
         ],
         "is_legendary": false,
         "is_mythical": false
@@ -1627,38 +561,12 @@
     "ceruledge": {
         "id": 937,
         "abilities": [
-            {
-                "ability": {
-                    "name": "flash-fire",
-                    "url": "https://pokeapi.co/api/v2/ability/18/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            },
-            {
-                "ability": {
-                    "name": "weak-armor",
-                    "url": "https://pokeapi.co/api/v2/ability/133/"
-                },
-                "is_hidden": true,
-                "slot": 3
-            }
+            "flash-fire",
+            "weak-armor"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "fire",
-                    "url": "https://pokeapi.co/api/v2/type/10/"
-                }
-            },
-            {
-                "slot": 2,
-                "type": {
-                    "name": "ghost",
-                    "url": "https://pokeapi.co/api/v2/type/8/"
-                }
-            }
+            "fire",
+            "ghost"
         ],
         "is_legendary": false,
         "is_mythical": false
@@ -1666,39 +574,12 @@
     "haxorus": {
         "id": 612,
         "abilities": [
-            {
-                "ability": {
-                    "name": "rivalry",
-                    "url": "https://pokeapi.co/api/v2/ability/79/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            },
-            {
-                "ability": {
-                    "name": "mold-breaker",
-                    "url": "https://pokeapi.co/api/v2/ability/104/"
-                },
-                "is_hidden": false,
-                "slot": 2
-            },
-            {
-                "ability": {
-                    "name": "unnerve",
-                    "url": "https://pokeapi.co/api/v2/ability/127/"
-                },
-                "is_hidden": true,
-                "slot": 3
-            }
+            "rivalry",
+            "mold-breaker",
+            "unnerve"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "dragon",
-                    "url": "https://pokeapi.co/api/v2/type/16/"
-                }
-            }
+            "dragon"
         ],
         "is_legendary": false,
         "is_mythical": false
@@ -1706,39 +587,12 @@
     "psyduck": {
         "id": 54,
         "abilities": [
-            {
-                "ability": {
-                    "name": "damp",
-                    "url": "https://pokeapi.co/api/v2/ability/6/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            },
-            {
-                "ability": {
-                    "name": "cloud-nine",
-                    "url": "https://pokeapi.co/api/v2/ability/13/"
-                },
-                "is_hidden": false,
-                "slot": 2
-            },
-            {
-                "ability": {
-                    "name": "swift-swim",
-                    "url": "https://pokeapi.co/api/v2/ability/33/"
-                },
-                "is_hidden": true,
-                "slot": 3
-            }
+            "damp",
+            "cloud-nine",
+            "swift-swim"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "water",
-                    "url": "https://pokeapi.co/api/v2/type/11/"
-                }
-            }
+            "water"
         ],
         "is_legendary": false,
         "is_mythical": false
@@ -1746,46 +600,13 @@
     "annihilape": {
         "id": 979,
         "abilities": [
-            {
-                "ability": {
-                    "name": "vital-spirit",
-                    "url": "https://pokeapi.co/api/v2/ability/72/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            },
-            {
-                "ability": {
-                    "name": "inner-focus",
-                    "url": "https://pokeapi.co/api/v2/ability/39/"
-                },
-                "is_hidden": false,
-                "slot": 2
-            },
-            {
-                "ability": {
-                    "name": "defiant",
-                    "url": "https://pokeapi.co/api/v2/ability/128/"
-                },
-                "is_hidden": true,
-                "slot": 3
-            }
+            "vital-spirit",
+            "inner-focus",
+            "defiant"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "fighting",
-                    "url": "https://pokeapi.co/api/v2/type/2/"
-                }
-            },
-            {
-                "slot": 2,
-                "type": {
-                    "name": "ghost",
-                    "url": "https://pokeapi.co/api/v2/type/8/"
-                }
-            }
+            "fighting",
+            "ghost"
         ],
         "is_legendary": false,
         "is_mythical": false
@@ -1793,31 +614,11 @@
     "magikarp": {
         "id": 129,
         "abilities": [
-            {
-                "ability": {
-                    "name": "swift-swim",
-                    "url": "https://pokeapi.co/api/v2/ability/33/"
-                },
-                "is_hidden": false,
-                "slot": 1
-            },
-            {
-                "ability": {
-                    "name": "rattled",
-                    "url": "https://pokeapi.co/api/v2/ability/155/"
-                },
-                "is_hidden": true,
-                "slot": 3
-            }
+            "swift-swim",
+            "rattled"
         ],
         "type": [
-            {
-                "slot": 1,
-                "type": {
-                    "name": "water",
-                    "url": "https://pokeapi.co/api/v2/type/11/"
-                }
-            }
+            "water"
         ],
         "is_legendary": false,
         "is_mythical": false
