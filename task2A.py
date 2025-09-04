@@ -39,7 +39,7 @@ for result in results:
     }
 
 if len(sys.argv) < 2:
-    print("Usage: python write_json.py <filename.json>")
+    print("Usage: python task2A.py <filename.json>")
     sys.exit(1)
 
 # Get the filename from the command line
