@@ -4,7 +4,6 @@ import sys
 from concurrent.futures import ThreadPoolExecutor
 from flask import Flask, request, jsonify
 
-app = Flask(__name__)
 
 all_types_url = f"https://pokeapi.co/api/v2/type"
 all_types_response = requests.get(all_types_url)
@@ -13,8 +12,10 @@ all_types_data = all_types_response.json()
 # dictionary with key:value as type_name:index_in_2D_list
 # index in 2D list is one less than the type ID
 type_list = [all_types_data['results'][index]['name'] for index in range(18)]
+#['normal', 'fighting', 'flying', 'poison', 'ground', 'rock', 'bug', 'ghost', \
+# 'steel', 'fire', 'water', 'grass', 'electric', 'psychic', 'ice', 'dragon', 'dark', 'fairy']
 
-damage_multipliers = [['1' for i in range(18)] for i in range(18)]
+damage_multipliers = [[1 for i in range(18)] for i in range(18)]
 
 def fetch_type_data(defender_name):
     global damage_multipliers, type_list
@@ -49,8 +50,64 @@ def fetch_type_data(defender_name):
 with ThreadPoolExecutor(max_workers=5) as executor:
     results = executor.map(fetch_type_data, type_list)
 
-def both_params():
-    global damage_multipliers
+app = Flask(__name__)
 
-for row in damage_multipliers:
-    print(row)
+def both_params(attacker, defender):
+    global damage_multipliers, type_list
+
+    row_index = type_list.index(defender)
+    col_index = type_list.index(attacker)
+    multiplier = damage_multipliers[row_index][col_index]
+    
+    return {'attacker':attacker, 'defender':defender, 'multiplier':multiplier}
+
+def attacker_param(attacker):
+    global damage_multipliers, type_list
+
+    col_index = type_list.index(attacker)
+    multiplier_list = [damage_multipliers[i][col_index] for i in range(len(damage_multipliers))]
+    to_defenders = {type_list[i]:multiplier_list[i] for i in range(len(damage_multipliers))}
+    return {
+        'attacker':attacker,
+        'to_defenders':to_defenders
+    }
+
+def defender_param(defender):
+    global damage_multipliers, type_list
+
+    row_index = type_list.index(defender)
+    multiplier_list = [damage_multipliers[row_index][i] for i in range(len(damage_multipliers))]
+    from_attackers = {type_list[i]:multiplier_list[i] for i in range(len(damage_multipliers))}
+    return {
+        'defender':defender,
+        'from_attackers':from_attackers
+    }
+
+
+@app.route('/')
+def handle_request():
+    global damage_multipliers, type_list
+
+    attacker = request.args.get('attacker')
+    defender = request.args.get('defender')
+
+    if not attacker and not defender:
+        return jsonify({"error": "Either attacker or defender must be provided"}), 400
+    
+    if attacker and attacker not in type_list:
+        return jsonify({"error": "Invalid attacker type"}), 400
+    
+    if defender and defender not in type_list:
+        return jsonify({"error": "Invalid defender type"}), 400
+
+    if attacker and defender:
+        response = both_params(attacker, defender)
+    elif attacker and not defender:
+        response = attacker_param(attacker)
+    elif defender and not attacker:
+        response = defender_param(defender)
+
+    return jsonify(response)
+
+if __name__ == '__main__':
+    app.run(port=8000, debug=True)
