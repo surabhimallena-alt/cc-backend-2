@@ -35,15 +35,15 @@ def fetch_type_data(defender_name):
 
     for attacker_name in double_damage_from:
         col_index = type_list.index(attacker_name)
-        damage_multipliers[row_index][col_index] = '2'
+        damage_multipliers[row_index][col_index] = 2
 
     for attacker_name in half_damage_from:
         col_index = type_list.index(attacker_name)
-        damage_multipliers[row_index][col_index] = '1/2'
+        damage_multipliers[row_index][col_index] = 0.5
 
     for attacker_name in no_damage_from:
         col_index = type_list.index(attacker_name)
-        damage_multipliers[row_index][col_index] = '0'
+        damage_multipliers[row_index][col_index] = 0
 
 
 with ThreadPoolExecutor(max_workers=5) as executor:
@@ -51,6 +51,6 @@ with ThreadPoolExecutor(max_workers=5) as executor:
 
 def both_params():
     global damage_multipliers
-    
+
 for row in damage_multipliers:
     print(row)
