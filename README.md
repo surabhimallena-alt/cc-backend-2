@@ -1,0 +1,3 @@
+- Names and types are exactly as they appear in the API, i.e., all in lowercase letters
+- For task 2A, run "python task2A.py <new_filename>" in the terminal. The required data will be converted into json format and written into the file <new_filename>
+- For task 2B, run the code, then go to the web browser and type in the required url. Eg. "http://localhost:8000/?attacker=fire&defender=grass"
